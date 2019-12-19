@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="#EAEAEA">
+
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gray_border"
+        android:padding="30dp"
+        android:text="배송"
+        android:textColor="#363636"
+        android:drawableLeft="@drawable/ic_icons"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gray_border"
+        android:padding="30dp"
+        android:text="배송목록"
+        android:textColor="#363636"
+        android:drawableLeft="@drawable/ic_icons"
+        android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_NFC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/gray_border"
+            android:drawableLeft="@drawable/ic_icons"
+            android:padding="30dp"
+            android:text="예약목록"
+            android:textColor="#363636"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

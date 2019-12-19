@@ -1,0 +1,13 @@
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_btn2"
+        android:title="로그아웃"
+        app:showAsAction="never" />
+
+    <!--always 는 항상 타이틀바에 표시
+     never는 오버플로우 메뉴에 바로 표시
+      ifRoom은 공간이 있다면 액션 없다면 오버플로우
+      withText 액션으로 표시할때 텍스트와 같이 표시
+      -->
+</menu>

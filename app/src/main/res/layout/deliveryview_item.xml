@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/list_border">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/material_amber_500"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:gravity="center"
+                android:background="@drawable/thinbottom_border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginBottom="3dp"
+                    android:id="@+id/text_DAddr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#363636"
+                    android:text="경기도 화성시 XX동 XX아파트"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_marginBottom="3dp"
+                    android:id="@+id/text_DAddr3"
+                    android:textColor="#363636"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="102동 1010호"
+                    android:textSize="18dp" />
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="상 품 이 름 : "
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text_DName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="상품이름"
+                android:textColor="#363636"
+                android:textSize="21dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="운송장번호: "
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text_Num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1234567891011"
+                android:textColor="#363636"
+                android:textSize="21dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:text="우 편 번 호 : "
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text_DAddr1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#363636"
+                android:text="12345"
+                android:textSize="21dp" />
+        </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

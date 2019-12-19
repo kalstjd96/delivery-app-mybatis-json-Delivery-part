@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.admin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_box"
+        android:label="스마트 관리자"
+        android:roundIcon="@mipmap/ic_launcher_box_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LockerList.Locker_List_Activity" />
+        <activity android:name=".LockerList.Locker_DetailList_Activity" />
+        <activity android:name=".LockerList.Locker_Activity" />
+        <activity android:name=".Menu_Activity" />
+        <activity android:name=".DeliveryList.Delivery_List_Activity" />
+        <activity android:name=".DeliveryList.Delivery_Detail_Activity" />
+        <activity android:name=".ReservationList.Reservation_List_Activity" />
+        <activity android:name=".ReservationList.Reservation_Locker_Activity" />
+        <activity android:name=".DeliveryList.barcode_Activity"></activity>
+    </application>
+
+</manifest>

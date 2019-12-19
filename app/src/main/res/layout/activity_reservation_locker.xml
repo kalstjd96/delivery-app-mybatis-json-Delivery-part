@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:gravity="center"
+tools:context=".ReservationList.Reservation_Locker_Activity"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<TextView
+    android:id="@+id/txt_addr2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textColor="#363636"
+    android:text=""
+    android:textSize="27dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:text=""
+        android:textSize="27dp"
+        android:textColor="#363636"
+        android:id="@+id/txt_addr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:text=""
+        android:textColor="#363636"
+        android:id="@+id/txt_no"
+        android:textSize="27dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/icon_nfc2"/>
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#363636"
+        android:text="번호에 맞는 사물함에 \n접촉시켜 주십시오."
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
